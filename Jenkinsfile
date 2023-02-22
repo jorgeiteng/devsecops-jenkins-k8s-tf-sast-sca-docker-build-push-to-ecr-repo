@@ -45,6 +45,7 @@ pipeline {
 		  sh ('kubectl apply -f deployment.yaml --namespace=devsecops')
 		}
 	      }
-   	}       
+   	}
+
   }
 }
